@@ -1,0 +1,15 @@
+1. Clone the repository
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+2. Install required libraries
+pip install google-generativeai python-dotenv
+
+3. Add your Google API key
+
+Create a file .env in your project folder:
+
+GOOGLE_GENAI_API_KEY=YOUR_API_KEY_HERE
+
+4. Run the program
+python learning_path_recommender.py
